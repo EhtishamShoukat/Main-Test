@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="User-login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>User Login Fome</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="email" placeholder="Email" id="email" required>
+            </div>
+            <div class="input-group">
+                <div class="password-container">
+                    <input type="password" placeholder="Password" id="password" required>
+                    <span id="togglePassword" class="toggle-password">Show</span>
+                </div>
+            </div>
+            <button type="button" id="loginBtn">Sign In</button>
+        </form>
+        <p id="error" class="error-message"></p>
+    </div>
+     <script src="User-login.js"></script> 
+</body>
+</html>

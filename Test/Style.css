@@ -1,0 +1,39 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: white;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+}
+.user-button{
+
+  
+        width: 30%;
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+.user-button:hover {
+        background-color: #1a0ebe;
+    }
+.admin-button{
+
+  
+        width: 30%;
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+
+        cursor: pointer;
+        font-size: 20px;
+    }
+.admin-button:hover {
+        background-color: #1a0ebe;
+    }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person and Company Manager</title>
+    <link rel="stylesheet" href="./Admin-page.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Company Manager</h1>
+        
+        <div class="form-section">
+            <input type="text" id="ownerInput" placeholder="Owner Name">
+            <input type="text" id="companyInput" placeholder="Company Name">
+            <button onclick="addCompany()">Add Company</button>
+        </div>
+        <table id="companyTable">
+            <thead>
+                <tr>
+                    <th>Owner Name</th>
+                    <th>Company Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <h2>Company Report</h2>
+        <div id="companyReport">
+            <p>Total Companies: <span id="totalCompanies">0</span></p>
+        </div>
+        <h1>Person Manager</h1>
+
+        <div class="form-section">
+            <input type="text" id="nameInput" placeholder="Name">
+            <input type="number" id="incomeInput" placeholder="Income">
+            <input type="number" id="expenseInput" placeholder="Expense">
+      
+            <button onclick="addPerson()">Add Person</button>
+        </div>
+
+        <table id="personTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Income</th>
+                    <th>Expense</th>
+                    <th>Balance</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <h2>Person Report</h2>
+        <div id="report">
+            <p>Total People: <span id="totalPeople">0</span></p>
+            <p>Total Income: <span id="totalIncome">0.00</span></p>
+            <p>Total Expense: <span id="totalExpense">0.00</span></p>
+            <p>Total Balance: <span id="totalBalance">0.00</span></p>
+        </div>
+
+      
+
+
+    </div>
+
+    <script src="./Admin-Page.js"></script>
+</body>
+</html>
